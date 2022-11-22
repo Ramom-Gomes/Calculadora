@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="area-clique">calculadora</h1>
+        <div class="area-clique"> 
+            <input type="text" class="input-texto" disabled>
+            <input type="button" value="C" class="limpar" onclick="LimparTela()">
+        </div> 
+        <div class="area-clique"> 
+            <input type="button" value="7" class="botao-numero" onclick="ColocarValor(7)">
+            <input type="button" value="8" class="botao-numero" onclick="ColocarValor(8)">
+            <input type="button" value="9" class="botao-numero" onclick="ColocarValor(9)">
+            <input type="button" value="/" class="botao-operador" onclick="ColocarValor('/')">
+        </div>
+        <div class="area-clique">
+            <input type="button" value="4" class="botao-numero" onclick="ColocarValor(4)">
+            <input type="button" value="5" class="botao-numero" onclick="ColocarValor(5)">
+            <input type="button" value="6" class="botao-numero" onclick="ColocarValor(6)">
+            <input type="button" value="*" class="botao-operador" onclick="ColocarValor('*')">
+        </div>   
+        <div class="area-clique">
+            <input type="button" value="1" class="botao-numero" onclick="ColocarValor(1)">
+            <input type="button" value="2" class="botao-numero" onclick="ColocarValor(2)">
+            <input type="button" value="3" class="botao-numero" onclick="ColocarValor(3)">
+            <input type="button" value="-" class="botao-operador" onclick="ColocarValor('-')">
+        </div>
+        <div class="area-clique">
+            <input type="button" value="0" class="botao-numero" onclick="ColocarValor(0)">
+            <input type="button" value="." class="botao-numero" onclick="ColocarValor('.')">
+            <input type="button" value="=" class="botao-resultado" onclick="FinalValor()">
+            <input type="button" value="+" class="botao-operador" onclick="ColocarValor('+')">
+        </div>
+    </div>
+
+
+    <script src="calculadora.js"></script>
+</body>
+</html>

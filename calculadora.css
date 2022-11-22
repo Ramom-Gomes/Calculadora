@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin-top: 160px;
+}
+.area-clique {
+    display: flex;
+    justify-content: center; 
+}
+.input-texto {
+    height: 30px;
+    border: 1px solid black;
+    margin-top: 15px;
+    background-color: white;
+    text-align: right;
+    font-size: 15px;
+    width: 180px;
+}
+input:focus {
+    outline: 0;
+}
+.limpar {
+    background-color: red;
+    cursor: pointer;
+    border: 1px solid white;
+    width: 50px;
+    margin: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+.botao-numero {
+    background-color: #d3d3d3;
+    margin: 5px;
+    width: 50px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.botao-operador {
+    background-color: aqua;
+    margin: 5px;
+    width: 50px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid aqua;
+    border-radius: 5px;
+}
+.botao-resultado {
+    background-color: green;
+    margin: 5px;
+    width: 50px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid green;
+    border-radius: 5px;
+}
